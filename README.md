@@ -1,2 +1,37 @@
-# Automated-attendance-system
-Final year graduation project — Automated student attendance using facial recognition
+# Automated Student Attendance System Using Facial Recognition 🎓
+
+This is my final year graduation project — a smart, automated student attendance system using real-time facial recognition.
+
+## 🚀 Project Overview
+
+The system allows:
+- Student **face registration**
+- Real-time **attendance marking** using webcam
+- **Exporting attendance reports** (PDF/Excel)
+- **Subject and professor management**
+- Automated **emailing to professors**
+
+## 🛠️ Built With
+- **Python**
+- **OpenCV** (LBPH Face Recognizer)
+- **SQLite** (Local database)
+- **Tkinter** (GUI)
+- **Pandas**, **Fpdf**, **XlsxWriter**
+
+## 📁 Features
+- GUI app to register students and manage subjects
+- Webcam-based attendance detection
+- Export daily attendance for each subject
+- Send attendance by email to professors
+- Separate scripts for each module
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/attendance-face-recognition.git
+   cd attendance-face-recognition
+
+2. pip install -r requirements.txt
+
+3. Run the program
