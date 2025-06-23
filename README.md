@@ -35,4 +35,29 @@ The system allows:
 2. ```bash
    pip install -r requirements.txt
 
-3. Run the program
+3. Run the modules:
+   ```bash
+   Copy
+   Edit
+   python Register_faces.py          # Register student faces
+   python Manage_subjects.py         # Add subjects and professor emails
+   python attendance_taker.py        # Start attendance system
+   python export_attendance.py       # Export and email reports
+
+📂 Folder Structure
+
+attendance-face-recognition/
+├── Register_faces.py
+├── Manage_subjects.py
+├── attendance_taker.py
+├── export_attendance.py
+├── start_webserver.py
+├── data/
+│   ├── trained_model.yml
+│   ├── label_mapping.txt
+│   └── data_faces_from_camera/
+├── attendance.db
+├── requirements.txt
+└── README.md
+
+Note: Student face data and trained models are not included in this repository to respect privacy.
