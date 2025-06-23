@@ -29,8 +29,8 @@ The system allows:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/attendance-face-recognition.git
-   cd attendance-face-recognition
+   git clone https://github.com/Ahmedmokhless/Automated-attendance-system.git
+   cd Automated-attendance-system
 
 2. ```bash
    pip install -r requirements.txt
